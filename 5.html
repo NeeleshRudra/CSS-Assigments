@@ -1,26 +1,27 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <style>
-      .hidden-image {
-        display: none;
-      }
-
-      .image-container:hover .hidden-image {
-        display: block;
-      }
-    </style>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
   </head>
+  <style>
+    img {
+      border-color: yellow;
+      border: 10px solid;
+    }
+    img:hover {
+      border-radius: 50%;
+      border-color: blueviolet;
+    }
+  </style>
   <body>
-    <div class="image-container">
-      <h1>Hover Below to reveal a Surprise</h1>
+    <figure>
       <img
-        class="hidden-image"
-        src="https://m.media-amazon.com/images/I/612qHYhLI6L.jpg"
-        height="500px"
-        width="400px"
-        alt="Hidden Image"
+        src="https://media.istockphoto.com/id/1218758075/photo/a-daisy-lying-on-water.webp?s=170667a&w=0&k=20&c=cyNS30d_VicGCaKaEjsFG0JdIJtCtIA5lfLKl33RL2w="
+        alt="Untitled"
       />
-    </div>
+    </figure>
   </body>
 </html>

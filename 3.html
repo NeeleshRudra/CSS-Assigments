@@ -4,18 +4,67 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <style>
-      a:hover {
-        background-color: yellowgreen;
-      }
-    </style>
+    <title>Nav BAR</title>
   </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    ul {
+      list-style: none;
+      height: 50px;
+      line-height: 36px;
+      background: cornflowerblue;
+    }
+    li {
+      float: left;
+      border-style: dotted;
+      border-width: 1px;
+
+      font-size: larger;
+    }
+    a {
+      display: block;
+      padding: 0 28px;
+      color: #fff;
+    }
+    a:hover {
+      color: black;
+    }
+    .nav-item {
+      display: inline-block;
+      padding: 5px;
+    }
+
+    .nav-item-1 {
+      border: 2px solid red;
+    }
+
+    .nav-item-2 {
+      border: 2px solid blue;
+    }
+
+    .nav-item-3 {
+      border: 2px solid green;
+    }
+
+    .nav-item-4 {
+      border: 2px solid orange;
+    }
+    .nav-item-5 {
+      border: 2px solid aqua;
+    }
+  </style>
   <body>
-    <a href="www.google.com">Google</a><br />
-    <a href="www.google.com">Google</a><br />
-    <a href="www.google.com">Google</a><br />
-    <a href="www.google.com">Google</a><br />
-    <a href="www.google.com">Google</a><br />
+    <nav>
+      <ul>
+        <li class="nav-item nav-item-1"><a href="#">Home</a></li>
+        <li class="nav-item nav-item-2"><a href="#">About Us</a></li>
+        <li class="nav-item nav-item-3"><a href="#">Contact</a></li>
+        <li class="nav-item nav-item-4"><a href="#">Blog</a></li>
+        <li class="nav-item nav-item-5"><a href="#">Login</a></li>
+      </ul>
+    </nav>
   </body>
 </html>
